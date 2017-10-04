@@ -19,8 +19,8 @@ body {
 /* Other Styling for the page starts here */
 body {
 	width: 960px;
-	background-image: url(../images/background.png);	
-}
+/*	background-image: url(../images/background.png);	
+*/}
 
 #profileImageStyle {
 	float: left;
@@ -44,7 +44,7 @@ body {
 #container {
     width: 800px;
     border:bold;
-    background-color: black;
+	background-image: url(../images/background.png);	
     margin: auto;
 }
 #first {
