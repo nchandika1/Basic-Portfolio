@@ -18,17 +18,20 @@ body {
 
 /* Other Styling for the page starts here */
 body {
-	width:960px;
-/*	background-image: url(../images/background.png);
-*/}
+	width: 960px;
+	background-color: #4aaaa5;
+}
 
 #profileImageStyle {
-	float:left;
+	float: left;
 	margin: 10px;
 }
 
+#mainBodyBG {
+	background-color: red;
+}
 .mainBodyStyle {
-	background-image: url(../images/background.png);
+	background-color: red;
 }
 .aboutMeStyle,
 .contactMeStyle {
