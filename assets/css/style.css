@@ -41,30 +41,26 @@ body {
 	clear: both;
 }
 
-
-/*    */
-.backgroundImage {
-	border: bold;
-}
-
 #container {
     width: 800px;
+    border:bold;
     background-color: black;
-/*    margin: auto;
-*/}
+    margin: auto;
+}
 #first {
     width: 500px;
     float: left;
-/*    height: 300px;
-*/    margin:0 20px 0 0;
+    margin:0 20px 0 0;
+    border:none;
     background-color: #ffffff; /* white */
 }
 #second {
     width: 200px;
     float: left;
-/*    height: 300px;
-*/    background-color: #ffffff; /* white */
+    border: none;
+    background-color: red; /* white */
 }
+
 #clear {
     clear: both;
 }
