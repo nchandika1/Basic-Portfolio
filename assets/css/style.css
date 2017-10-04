@@ -19,7 +19,7 @@ body {
 /* Other Styling for the page starts here */
 body {
 	width: 960px;
-	background-color: #4aaaa5;
+	background-image: url(../images/background.png);	
 }
 
 #profileImageStyle {
@@ -27,21 +27,59 @@ body {
 	margin: 10px;
 }
 
-#mainBodyBG {
-	background-color: red;
+#topnavName {
+	background-color: #4aaaa5; /* teal */
+	font-weight: bold;
 }
-.mainBodyStyle {
-	background-color: red;
+
+#topnavItem {
+	float:left;
+	margin-left: 70px;
 }
+
+#clear {
+	clear: both;
+}
+
+
+/*    */
+.backgroundImage {
+	border: bold;
+}
+
+#container {
+    width: 800px;
+    background-color: black;
+/*    margin: auto;
+*/}
+#first {
+    width: 500px;
+    float: left;
+/*    height: 300px;
+*/    margin:0 20px 0 0;
+    background-color: #ffffff; /* white */
+}
+#second {
+    width: 200px;
+    float: left;
+/*    height: 300px;
+*/    background-color: #ffffff; /* white */
+}
+#clear {
+    clear: both;
+}
+
+/*    */
 .aboutMeStyle,
 .contactMeStyle {
+	clear: both;
 	float: left;
 }
 
 .aboutMeStyle {
-	width:570px;
+	width:520px;
 	padding:20px;
-	margin:20px;
+	margin:40px;
 	border:none;
 	color: #777777;
 	background-color: white;
@@ -58,7 +96,7 @@ body {
 /* Navigation Bar */
 
 .topnav {
-    background-color: white;
+    background-color: #ffffff /* white */;
     overflow: hidden;
 }
 
