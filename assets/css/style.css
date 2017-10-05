@@ -50,7 +50,7 @@ body {
 }
 
 .aboutMeText {
-	text-align: center;
+	text-align: left;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color:#4aaaa5; /* teal */
 	font-size: 25px;
@@ -168,7 +168,51 @@ body {
 
 /* START PORTFOLIO STYLES */
 
-.portImages {
-	width: 100px;
-	height: 100px;
+#firstPortfolio {
+    width: 300px;
+    height: 400px;
+    float: left;
+    border:none;
+	background-color: #ffffff; /* white */
+	margin: auto;
 }
+
+.pfContainer1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.pfContainer2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 150px;
+    left: 0;
+}
+
+.pfImage1 {
+	padding:20px;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+.pfImage2 {
+	padding:20px;
+	position: absolute;
+	top:0;
+	left:50%;
+}
+
+.pfTextBox {
+	height:15px;
+	width:100px;
+	background-color: teal;
+	position: absolute;
+	text-align: center;
+	color:white;
+	bottom:30px;
+	left:20px;
+}
+
